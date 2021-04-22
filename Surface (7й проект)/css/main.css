@@ -1,0 +1,470 @@
+:root {
+	--clr-primary: #c1c1c1;
+	--clr-accent: #5e42b0;
+	--clr-hoover: #463283;
+}
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+body {
+	margin: 0;
+}
+*,
+*::before
+*::after {
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1550px;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+h1,h2,h3,h4,h5,p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.7;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/*some attributes for all sections*/
+.section_heading {
+	color: var(--clr-primary);
+	font-size: 3rem;
+	font-family: "Proxima Nova Bold";
+	text-transform: uppercase;
+}
+.section_main_heading {
+	color: #fff;
+	font-size: 2rem;
+	font-family: "Proxima Nova Bold";
+	text-transform: uppercase;
+}
+.section_sub_heading {
+	color: var(--clr-primary);
+	font-size: 1.75rem;
+	font-family: "Proxima Nova Bold";
+	text-transform: uppercase;
+}
+.section_text {
+	font-family: ProximaNova-Regular;
+	font-size: 0.93rem;
+}
+.btn {
+	background-color: var(--clr-accent);
+	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 25px 25px 25px 25px;
+	
+	font-size: 0.48rem;
+	text-transform: uppercase;
+	font-family: "Proxima Nova Alt Light";
+	text-align: left;
+	letter-spacing: 0.7px;
+	
+	padding: 1.2em 1em 1.2em 5.5em;
+	width: 138px;
+	
+	position: relative;
+	cursor: pointer;
+	transition: background 0.2s ease;
+}
+.btn:last-child {
+	margin-left: 1em;
+	padding-left: 7em;
+}
+.fa-apple {
+	position: absolute;
+	left: 14%;
+	top: 18%;
+	font-size: 1.4rem;
+}
+.fa-google-play {
+	position: absolute;
+	left: 20%;
+	font-size: 1.2rem;
+}
+.btn:hover {
+	background-color: var(--clr-hoover);
+}
+/* common styles for section 1 and 2*/
+.athlests_for_bigscr, .players_for_bigscr {
+		display: none;
+	}
+.section_header_tp1 {
+	font-size: 3.1rem;
+	font-family: "Proxima Nova Bold";
+	text-transform: uppercase;
+	color: var(	--clr-primary);
+	width: 95%;
+	margin: 0 auto;
+}
+.sec_content_heading {
+	font-size: 1.75rem;
+	font-family: "Proxima Nova Bold";
+	text-transform: uppercase;
+	color: var(	--clr-primary);
+}
+.section_text {
+	font-size: 1rem;
+	font-family:"ProximaNova-Regular";
+}
+
+.section_image_tp1 {
+	position: relative;
+	height: 230px;
+}
+.section_image_tp1 img {
+	position: absolute;
+	left: 20%;
+	top: 0;
+	z-index: 3;
+}
+.section_image_tp1 .fa-plus {
+	color: var(--clr-accent);
+	position: absolute;
+	top: 6%;
+    left: 21%;
+	
+}
+.section_image_tp1 .grey {
+	color: var(	--clr-primary);
+	top: 3%;
+    left: 15%;
+}
+.carousel_item {
+	padding: 3.5em 0;
+	background-color: #f5f4f9;
+	min-height: 200px;
+}
+.slides .owl-carousel .owl-dots {
+	position: absolute; 
+	bottom: 8%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.slides .owl-carousel button.owl-dot {
+	width: 12px;
+    height: 12px;
+	background-color: var(--clr-primary);
+    display: inline-block;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+}
+
+.slides .owl-carousel button.owl-dot.active {
+    background-color: var(--clr-accent);
+}
+
+.heading_numb {
+	font-size: 0.85rem;
+    color: #333;
+    vertical-align: 37%;
+	border-bottom: 3px solid var(--clr-accent);
+}
+.grey_numb {
+	border-color: var(--clr-primary);
+}
+/* common styles for section 3,4,5 */
+.section_image_tp2 {
+	display: table;
+	margin: auto;
+	position: relative;
+}
+.section_tp2 {
+	position: relative;
+}
+.numb_box {
+	width: 70px;
+	height: 70px;
+	background-color: var(--clr-accent);
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	
+	position: absolute;
+	bottom: -2%;
+	left: 4%;
+}
+.numb_box span {
+	font-size: 0.8rem;
+	font-family: "Proxima Nova Bold";
+	color:  #fff;
+	letter-spacing: 1px;
+	position: relative;
+}
+.numb_box span::after {
+    content: "";
+    width: 18px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 25px 25px 25px 25px;
+	opacity: 0.4;
+	
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+.content_t-2 {
+	margin-top: 1em;
+}
+.sect_txt_t2::after {
+	content: "";
+    width: 20px;
+    height: 4px;
+    background-color: var(--clr-accent);
+    border-radius: 25px 25px 25px 25px;
+
+	
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+} 
+.mid_img {
+	display: none;
+}
+.big_img {
+	display: none;
+}
+/*section 1 home start*/
+.home_section {
+	background-image: url(../img/main_bg.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+.home_page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+
+}
+.logo_wrapper {
+	margin-top: 2em;
+	text-align: center;
+}
+.logo img {
+	vertical-align: -5px;
+}
+.logo h4 {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: "Proxima Nova Bold";
+	display: inline;
+	margin-top: 1px;
+}
+.logo_descr {
+	display: none;
+	color: #fff;
+	font-size: 0.8rem;
+	font-family: "Proxima Nova Alt Light";
+	text-transform: uppercase;
+}
+.home_header .section_main_heading {
+	line-height: 1.3;
+	position: relative;
+	z-index: 2;
+	letter-spacing: 2px;
+	margin: 0 -2.5%;
+}
+.section_main_heading span {
+	float: right;
+}
+.big_screen_header {
+		display: none;
+}
+.home_header .section_main_heading::after {
+	content: "";
+    width: 4px;
+    height: 200px;
+    background-color: var(--clr-accent);
+    transform: rotate(43deg);
+	
+    position: absolute;
+    top: -100%;
+    right: 50%;
+    z-index: -1;
+}
+
+
+
+.top_btn {
+	text-align: center;
+}
+
+.navigation  {
+	margin: 2em 0 1em;
+	text-align: center;
+	padding: 0 1em;
+}
+
+.navigation li {
+	display: inline-block;
+	line-height: 1.5;
+	margin: 0 0.7em;
+}
+
+.navigation a {
+	font-family: "Proxima Nova Alt Light";
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	color: var(--clr-accent);
+	transition: color 0.2s ease;
+}
+.navigation a:hover {
+	color: var(--clr-hoover);
+}
+
+/* section 1 ATLETS */
+.line-through {
+    width: 3px;
+    height: 250px;
+    background-color: var(--clr-accent);
+    transform: rotate(40deg);
+    position: absolute;
+    top: -4%;
+    right: 47%;
+    z-index: -1;
+}
+.middle-size_img {
+	display: none;
+}
+.big-size_img {
+	display: none;
+}
+/* section 2 Players */
+.players {
+	position: relative;
+}
+.players_image img {
+	left: 0;
+}
+.players_image {
+	height: 200px;
+}
+.line-through_t2 {
+    width: 3px;
+    height: 112px;
+    background-color: var(--clr-accent);
+    transform: rotate(40deg);
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    z-index: -1;
+}
+.line-through_t3 {
+    width: 3px;
+    height: 141px;
+    background-color: var(--clr-accent);
+    transform: rotate(40deg);
+    position: absolute;
+    top: 19%;
+    left: 32%;
+    z-index: 2;
+}
+.fa-plus .bigscr {display: none;}
+/* section 3 be active */
+
+
+/* section 4 find contact */
+
+.find-contact {
+	margin-top: 4em;
+}
+/* section 5 workit */
+.work_it {
+	margin: 4em 0;
+	
+}
+/* footer */
+.footer {
+	background-image: url('../img/footer_bg.jpg');
+	background-size: cover;
+	min-height: 570px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	
+}
+.pl_icon {
+	position: absolute;
+	top: 17%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.pl_icon_big {
+	display: none;
+}
+.bottom_header {
+	margin-top: 7em;
+    margin-bottom: -2em;
+	text-align: center;
+	z-index: 2;
+}
+.bottom_heading {
+	letter-spacing: 3px;
+	line-height: 1.2;
+}
+.bottom_heading_small {
+	font-size: 0.87rem;
+	font-family: "Proxima Nova Bold";
+	text-transform: uppercase;
+	color: #766d9b;
+}
+.bottom_btn {
+	text-align: center;
+	margin-bottom: 2em;
+}
+.footer_bottom_wrapper {
+	background-color: rgba(10,14,52,0.6);
+}
+.bottom_logo {
+	display: none;
+}
+.contact__us {
+	display: none;
+}
+.social_box {
+	text-align: center;
+	width: 100%;
+}
+.social_box .fab {
+	color: #fff;
+	font-size: 1.2rem;
+	padding: 0.9em;
+}
+.line-through_t4 {
+    width: 4px;
+    height: 90px;
+    background-color: var(--clr-accent);
+    transform: rotate(40deg);
+    position: absolute;
+    top: 35%;
+    left: 18%;
+    z-index: 0;
+}
+.line-through_t5 {
+    width: 4px;
+    height: 141px;
+    background-color: var(--clr-accent);
+    transform: rotate(40deg);
+    position: absolute;
+    top: 30%;
+    right: 41%;
+    z-index: 0;
+}
