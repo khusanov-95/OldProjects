@@ -1,0 +1,446 @@
+@media only screen and (min-width: 450px){
+  .content_box {
+    width: 390px;
+}
+.owl-prev, .owl-next {
+  top: 25%;
+}
+.owl-prev{left: 2%;}
+.owl-next{right: 2%;}  
+}
+
+@media only screen and (min-width: 600px) {
+.logo {
+  padding-top: 1em;
+}
+.main_section_heading {
+  font-size: 2rem;
+}
+.main_section_heading small {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.shadow_bottm {
+  width: 100%;
+  height: 695px;
+  background-color: #fff;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  box-shadow: 0 -45px 34px 55px #fff;
+}
+.content_box {
+  width: 550px;
+}
+.box_images {
+  background: linear-gradient(136deg, #00d2ff 43%, #fff 44%);
+  margin: 2em 0;
+}
+.box_content_heading {
+  font-size: 1.2rem;
+}
+.box_nav {
+  top: 12%;
+}
+.about_us_text {
+  margin-left: 1em;
+}
+.about_us_video {
+  width: 94%;
+  margin: -1.5em 1em 3em 0;
+ 
+  margin-left: auto;
+  background-color: transparent;
+  text-align: right;
+  box-shadow: none;
+}
+.about_us_video img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
+}
+
+@media only screen and (min-width: 768px) {
+  .shadow_bottm {
+    height: 490px;
+}
+  .content_box {
+    width: 600px;
+  }
+  .box_images {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #00d2ff 44%, #fff 45%);
+  }
+  .boards_portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin-left: 1em;
+  }
+  .boards_portfolio img {
+    width: 100%;
+    margin-bottom: 2px;
+  }
+  .boards_portfolio img:last-child {
+    margin-bottom: 0;
+  }
+  .owl-prev {
+    left: -2%;
+}
+.owl-next {
+  right: -2%;
+}
+.updates_inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.updates_section_heading {
+  flex: 100%;
+  max-width: 100%;
+}
+.updates_box_wrapper {
+  flex: 50%;
+  max-width: 50%;
+}
+.upd_btn_wrapper {
+  flex: 100%;
+  max-width: 100%;
+}
+.times_2 {
+  top: 3%;
+}
+.box_item {
+  width: 270px;
+}
+.box_text {
+padding: 0;
+}
+.last_box_item{
+  margin: 2em auto 0;
+}
+} 
+@media only screen and (min-width: 968px) {
+  .main_section {
+    height: 800px;
+}
+.shadow_bottm {
+  height: 230px;
+}
+  .main_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 2em 0;
+  }
+  .logo {
+    text-align: left;
+    padding-top: 0;
+    font-size: 1.2rem;
+  }
+  .icon {
+    display: none;
+  }
+  .nav_wrapper {
+    display: block;
+  }
+  .navigation li {
+    display: inline-block;
+  }
+  .navlink {
+    font-size: 0.8rem;
+    padding: 0.5em 0.5em;
+  }
+  .soical_header a {
+    width: 30px;
+    height: 30px;
+    margin: 0em 0.3em;
+}
+.soical_header i {
+  font-size: 1rem;
+}
+.main_section_heading {
+  margin-bottom: 1em;
+}
+
+  .content_box {
+    width: 900px;
+    display: flex;
+  }
+  .box_images {
+    flex: 50%;
+    max-width: 50%;
+    margin: 0;
+    background: linear-gradient(134deg, #00d2ff 48%, #fff 50%);
+  }
+  .box_wrapper {
+    flex: 50%;
+    max-width: 50%;
+    margin-bottom: 0;
+  }
+  .main_box_img {
+    width: 79%;
+  }
+/* about us section */
+.about_us {
+  display: flex;
+  background-size: auto 425px;
+  height: 700px;
+}
+.about_us_text {
+  flex: 50%;
+  max-width: 50%;
+  margin-left: 0;
+  margin-top: 18px;
+  box-shadow: none;
+}
+.fa-times {
+  top: 12%;
+}
+.about_us_video {
+  flex: 50%;
+  max-width: 45%;
+  margin-right: 0;
+  margin-top: 15em;
+  padding: 0;
+}
+.carousel_item {
+  width: 230px;
+  height: 250px;
+  padding: 2em 1em;
+  margin: 0.5em auto 3em;
+}
+
+/*latest updates section */
+.times_2 {
+  top: 4%;
+}
+}
+@media only screen and (min-width: 1200px) {
+  .logo {
+    font-size: 1.9rem;
+  }
+  .navlink {
+    font-size: 0.9rem;
+  }
+  .soical_header a {
+    width: 40px;
+    height: 40px;
+    margin: 0em 0.4em;
+}
+  .soical_header i {
+    font-size: 1.4rem;
+}
+.main_section_heading {
+  font-size: 2.8rem;
+  margin: 1em 0 2.5em;
+}
+.main_section {
+  background-image: url(../img/main_bg.jpg);
+  background-size: auto 700px;
+  background-repeat: no-repeat;
+  height: 1150px;
+  position: relative;
+}
+.content_box {
+  width: 1030px;
+}
+.box_icons {
+  margin-bottom: 1em;/*доделать тут*/
+}
+.fa-star {
+  font-size: 0.8rem;
+}
+
+.cont_description,.cont_features,.cont_dimensions {
+  display: none;
+}
+.content_box_buttons {
+  display: initial;
+  position: relative;
+}
+.content_box_button {
+  margin-right: 1.5em;
+}
+
+
+.box_images {
+  background: linear-gradient(132deg, #00d2ff 48%, #fff 50%);
+}
+.box_nav {
+  right: -8%;
+}
+.box_navs img {
+  padding: 0.8em;
+}
+.counter_black {
+  top: 92%;
+  right: 47%;
+  font-size: 0.85rem;
+  padding: 0.8em 0.7em;
+}
+.shadow_bottm {
+  width: 100%;
+  height: 450px;
+  background-color: #fff;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  box-shadow: 0 -89px 78px 55px #fff;
+}
+.box_content_heading {
+  font-size: 1.35rem;
+}
+.content_box_text {
+  font-size: 1rem;
+}
+
+/* aboute us section */
+.about_us {
+  background-size: auto 580px;
+  height: 870px;
+}
+.about_us_text {
+  flex: 50%;
+  max-width: 50%;
+  margin-left: 0;
+  margin-top: 190px;
+  box-shadow: none;
+}
+.section_heading {
+  margin-top: 2em;
+}
+.fa-times {
+  top: 10%;
+}
+.section_txt {
+  font-size: 1.3rem;
+  padding: 0 88px;
+}
+.abt_link {
+  padding-left: 88px;
+  font-size: 1rem;
+}
+.about_us_video {
+  margin-top: 22em;
+  margin-right: 1em;
+}
+/* сделать карусель тут * /
+
+/* latest updates */
+.updates_inner {
+  width: 78%;
+  margin: auto;
+}
+.updates_box_wrapper {
+  flex: 33%;
+  max-width: 33%;
+}
+.box_item {
+  margin: 3em auto 0;
+}
+.box_text {
+  max-height: 180px;
+  font-size: 1rem;
+  padding: 0.5em;
+  overflow: hidden;
+}
+.details_view {
+
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+.btn {
+  font-size: 1rem;
+  padding: 0.8em 1.5em;
+}
+/* footer */
+.footer {
+  margin-top:6em;
+}
+.footer_top {
+  height: 450px;
+}
+.instagram_box {
+  max-width: 525px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.facebook {
+  min-height: 320px;
+  max-width: 400px;
+  margin-right: 0;
+  margin-top: 2em;
+}
+.fb_wrapper {
+  padding: 3em 11em 0 0;
+}
+.bottom_nav {
+  /*justify-content: flex-end;*/
+  margin-left: 17em;
+}
+.cooperight {
+  text-align: left;
+  margin-top: 2.5em;
+}
+.subscr_box {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-right: 2em;
+}
+.subscribe {
+ width: 300px;
+ text-align: left;
+}
+.email_wrapper {
+  margin-top: 0.2em;
+}
+#email {
+  padding: 0.7em 2em;
+  width: 100%;
+}
+.email_wrapper .fa-envelope {
+  top: 52%;
+  left: 0;
+}
+.email_wrapper button {
+  right: 0;
+}
+.boards_bg_text {
+  display: initial;
+}
+.about_bg_text{
+  display: initial;
+}
+.ourteam_bg_text{
+  display: block;
+}
+.instagram_bg_textt {
+  display: block;
+}
+}
+@media only screen and (min-width: 1400px) {
+  .about_us_video {
+    margin-top: 22em;
+    margin-right: 13em;
+}
+}
+
+@media only screen and (min-width: 1800px) {
+  .about_us {
+    background-size: contain;
+    height: 870px;
+  }
+  .main_section {
+    background-size: contain;
+}
+}
