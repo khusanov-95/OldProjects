@@ -1,0 +1,26 @@
+<i class="fas fa-angle-down"></i>
+									<div class="mens_dropdown_content">
+										<div class="casual">
+											<h6>Casual</h6>
+										<ul>
+											<li><a href="#">Jackets</a></li>
+											<li><a href="#">Hoodies & Sweatshirts</a></li>
+											<li><a href="#">Polo Shirts</a></li>
+											<li><a href="#">Sportswear</a></li>
+											<li><a href="#">Trousers & Chinos</a></li>
+											<li><a href="#">T-Shirts</a></li>
+										</ul>
+										</div>
+										<div class="formal">
+											<h6>Formal</h6>
+											<ul>
+												<li><a href="#">Jackets</a></li>
+												<li><a href="#">Shirts</a></li>
+												<li><a href="#">Suits</a></li>
+												<li><a href="#">Trousers</a></li>
+											</ul>
+										</div>
+										<div class="sale">
+											<h3><span>Autumn sale!</span>up to 50%</h3>
+										</div>
+									</div>

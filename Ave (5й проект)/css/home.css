@@ -1,0 +1,132 @@
+/*section 1*/
+
+.header_main {
+	min-height: 920px;
+	background-color: #f8f8f8;
+	background-position: center;
+	background-size: cover;
+}
+
+.bg_img {
+	position: absolute;
+	top: 55px;
+	left: 250px;
+	max-width: 100%;
+}
+
+.bg_text_img {
+	position: relative;
+	max-width: 100%;
+	top: 120px;
+}
+
+/*section 1*/
+
+/* ДОДЕЛАТЬ*/
+
+/* ДОДЕЛАТЬ*/
+
+.btnn.collect {
+	position: absolute;
+	right: 324px;
+	bottom: -300px;
+}
+
+/* Section 2*/
+
+.line-devider {
+	margin: 62px 134px 54px 134px;
+	border: 1px solid #eeeeee;
+}
+
+.middle-nav {
+	margin-left: 134px;
+}
+
+.middle-nav ul>li {
+	color: #7b7b7b;
+	font-size: 13px;
+	padding-right: 54px;
+}
+
+.middle-nav li>a {
+	text-decoration: none;
+}
+
+.middle-nav li>a:hover {
+	color: #00c8c8;
+}
+
+.portfolio_container {
+	margin: 62px 134px 0 134px;
+}
+
+.portfolio_item {
+	padding: 0;
+	margin: 0;
+}
+
+.porfolio_item>img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+.p_item_5, .p_item_6 {
+	margin-top: 9%;
+}
+
+.p_item_4 {
+	margin-top: -19%;
+}
+
+.lkb_wraper {
+	background-color: #f8f8f8;
+	display: flex;
+}
+
+.lkb_img {
+	flex: 40%;
+	padding-top: 20px;
+}
+
+.lkb_content {
+	flex: 60%;
+	padding: 20px 20px 0 0;
+}
+
+.lkb_content h2 {
+	text-align: right;
+}
+
+.lkb_img img {
+	max-width: 100%;
+}
+
+.lkb_content span {
+	font-family: Montserrat-Bold;
+}
+
+.lkb_content p {
+	font-family: Montserrat-Regular;
+	font-size: 0.8em;
+	color: #8d8d8d;
+	margin-bottom: 8px;
+	text-align: right;
+}
+
+.btnn.lkb {
+	color: #575153;
+	font-size: 0.8em;
+	font-weight: 600;
+	padding: 14px 32px;
+	margin-top: 8px;
+	float: right;
+}
+
+.btnn.lkb:hover {
+	background-color: #00c8c8;
+	color: #fff;
+	border: 2px solid transparent;
+	outline: none;
+}
